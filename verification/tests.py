@@ -61,7 +61,7 @@ TESTS = {
         },
         {
             "input": [4, 'qwe rty'],
-            "answer": 'errror',
+            "answer": 'error',
         }
     ]
 }
