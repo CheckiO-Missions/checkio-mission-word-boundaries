@@ -1,0 +1,10 @@
+def boundaries(n: int, words: str) -> str:
+    # your code here
+    return 'error'
+
+
+print("Example:")
+print(boundaries(2, 'a b c'))
+
+# These "asserts" are used for self-checking and not for an auto-testing
+print("Coding complete? Click 'Check' to earn cool rewards!")
