@@ -6,6 +6,7 @@ Each test is a dict with
     "answer" -- your right answer
     "explanation" -- not necessarily a key, it's used for an additional info in animation.
 """
+
 TESTS = {
     "Basics": [
         {
@@ -35,7 +36,7 @@ TESTS = {
         {
             "input": [1, 'o o o!!!'],
             "answer": 'error',
-        },
+        }
     ],
     "Extra": [
         {
@@ -61,6 +62,6 @@ TESTS = {
         {
             "input": [4, 'qwe rty'],
             "answer": 'errror',
-        },
+        }
     ]
 }
