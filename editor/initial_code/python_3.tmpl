@@ -1,0 +1,24 @@
+{% comment %}New initial code template{% endcomment %}
+{% block env %}{% endblock env %}
+
+{% block start %}
+def boundaries(n: int, words: str) -> str:
+    # your code here
+    return 'error'
+{% endblock start %}
+
+{% block example %}
+print("Example:")
+print(boundaries(2, 'a b c'))
+{% endblock %}
+
+# These "asserts" are used for self-checking
+{% block tests %}
+{% for t in tests %}
+assert {% block call %}sum_two({{t.input|p_args}})
+{% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
+{% endblock %}
+
+{% block final %}
+print("You are doing great! Now, it's time to check!")
+{% endblock final %}
