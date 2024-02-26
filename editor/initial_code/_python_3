@@ -7,4 +7,4 @@ print("Example:")
 print(boundaries(2, 'a b c'))
 
 # These "asserts" are used for self-checking and not for an auto-testing
-print("Coding complete? Click 'Check' to earn cool rewards!")
+print("You are doing great! Now, it's time to check!")
