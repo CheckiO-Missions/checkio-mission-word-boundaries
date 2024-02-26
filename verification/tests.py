@@ -60,7 +60,7 @@ TESTS = {
             "answer": 'error',
         },
         {
-            "input": [4, 'qwe rty'],
+            "input": [4, 'qwer ty'],
             "answer": 'error',
         }
     ]
