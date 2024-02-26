@@ -9,26 +9,58 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": [2, 'a b c'],
+            "answer": 'b',
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": [8, '+ - * / ( ) = 0'],
+            "answer": '(',
+        },
+        {
+            "input": [12, 'How do you do?'],
+            "answer": 'do?',
+        },
+        {
+            "input": [6, 'This is a very strange test...'],
+            "answer": 'is',
+        },
+        {
+            "input": [0, '!!! What !!!'],
+            "answer": '!!!',
+        },
+        {
+            "input": [14, 'test test ERROR'],
+            "answer": 'ERROR',
+        },
+        {
+            "input": [1, 'o o o!!!'],
+            "answer": 'error',
         },
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [8, 'Aaaaaaaaaaaaaaaaa!'],
+            "answer": 'Aaaaaaaaaaaaaaaaa!',
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": [20, 'This_is_a_very_long_word'],
+            "answer": 'This_is_a_very_long_word',
+        },
+        {
+            "input": [0, '___ +++ ___ === ???'],
+            "answer": '___',
+        },
+        {
+            "input": [1000, 'averyshortword'],
+            "answer": 'error',
+        },
+        {
+            "input": [100500, 'error'],
+            "answer": 'error',
+        },
+        {
+            "input": [4, 'qwe rty'],
+            "answer": 'errror',
         },
     ]
 }
