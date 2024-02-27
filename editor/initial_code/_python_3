@@ -1,4 +1,4 @@
-def boundaries(n: int, words: str) -> str:
+def boundaries(n: int, words: str) -> str | None:
     # your code here
     return 'error'
 
