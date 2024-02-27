@@ -35,7 +35,7 @@ TESTS = {
         },
         {
             "input": [1, 'o o o!!!'],
-            "answer": 'error',
+            "answer": None,
         }
     ],
     "Extra": [
@@ -53,15 +53,15 @@ TESTS = {
         },
         {
             "input": [1000, 'averyshortword'],
-            "answer": 'error',
+            "answer": None,
         },
         {
             "input": [100500, 'error'],
-            "answer": 'error',
+            "answer": None,
         },
         {
             "input": [4, 'qwer ty'],
-            "answer": 'error',
+            "answer": None,
         }
     ]
 }
