@@ -52,11 +52,11 @@ TESTS = {
             "answer": '___',
         },
         {
-            "input": [1000, 'averyshortword'],
+            "input": [28, 'averyshortword'],
             "answer": None,
         },
         {
-            "input": [100500, 'error'],
+            "input": [20, 'error'],
             "answer": None,
         },
         {
