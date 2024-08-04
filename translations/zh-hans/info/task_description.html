@@ -1,0 +1,30 @@
+<p style="text-align: justify;">
+  给您一个字符串 (<b class="code">words</b>) ，其中包含一些用空格分隔的单词，以及一个整数 (<b class="code">n</b>) - 该字符串中一个符号的索引。您需要打印该索引下包含该符号的单词（<b class="code">words</b> 的一部分，以空格分隔）。如果没有元素与该索引匹配，则返回 <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
+</p>
+
+<p>
+ <strong>注意： </strong>
+  索引以 0 为单位，指字符在字符串中的位置（包括空格字符）。
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<strong>输入：</strong>
+<li>整数 "n"--单词中符号的索引。</li>
+<li>字符串 "words"，其中一些元素用空格分隔。</li>
+
+<p>
+<strong>输出：</strong>
+一行 - 包含该索引下符号的元素。
+</p>
+
+<strong>示例</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
+<strong>前提条件：</strong>
+<li>0 &lt; n &lt; 30</li>
+<li>0 &lt; 元素长度 &lt; 30</li>
+</p>
