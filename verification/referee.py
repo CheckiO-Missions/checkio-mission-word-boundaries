@@ -11,9 +11,13 @@ api.add_listener(
         tests=TESTS,
         # checker=to_list,
         function_name={
-            "python": "boundaries"
+            "python": "boundaries",
+            "js": "boundaries"
         },
         cover_code={
             'python-3': {},
+            'js-node': {
+                # "dateForZeros": True,
+            }
         }
     ).on_ready)

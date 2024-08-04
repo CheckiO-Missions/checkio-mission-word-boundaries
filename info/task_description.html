@@ -1,9 +1,14 @@
-<p>
-  You are given a string ("words") with some words separated by spaces and an integer ("n") — index of a symbol in this string. You need to print the word (part of "words", boundaried by spaces) that contains the symbol under this index. If no element matches this index, return None.
+<p style="text-align: justify;">
+  You are given a string (<b class="code">words</b>) with some words separated by spaces and an integer (<b class="code">n</b>) — index of a symbol in this string. You need to print the word (part of <b class="code">words</b>, boundaried by spaces) that contains the symbol under this index. If no element matches this index, return <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
 </p>
+
 <p>
   <strong>Note:
   </strong>Index is 0-based and refers to the position of a character in the string (including the space characters).
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
 </p>
 
 <strong>Input:</strong>
@@ -15,11 +20,11 @@
 A single line — element containing the symbol under this index.
 </p>
 
-<strong>Example:</strong>
-<pre class="brush: python">
-  assert boundaries(2, 'a b c') == 'b'
-</pre>
-<p></p>
+<strong>Examples:</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
 <strong>Preconditions:</strong>
 <li>0 < n < 30</li>
 <li>0 < length of elements < 30</li>
+</p>
