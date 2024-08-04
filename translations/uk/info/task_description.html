@@ -1,0 +1,30 @@
+<p style="text-align: justify;">
+  Вам задано рядок (<b class="code">words</b>), що містить декілька слів, відокремлених пропусками, та ціле число (<b class="code">n</b>) - індекс символу у цьому рядку. Вам потрібно вивести слово (частину рядка <b class="code">words</b>, обмежену пропусками), яке містить символ під цим індексом. Якщо не знайдено жодного елементу, що відповідає цьому індексу, виведіть <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
+</p>
+
+<p>
+ <strong>Зауваження: </strong>
+  Індекс починається з 0 і вказує на позицію символу в рядку (включаючи пробіли).
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<strong>Вхідні дані:</strong>
+<li>Ціле число "n" - індекс символу у словах.</li>
+<li>Рядок "words" з деякими елементами, відокремленими пропусками.</li>
+
+<p>
+<strong>Вихідні дані:</strong>
+Єдиний рядок - елемент, що містить символ під цим індексом.
+</p>
+
+<strong>Приклади:</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
+<strong>Передумови:</strong>
+<li>0 &lt; n &lt; 30</li>
+<li>0 &lt; довжина елементів &lt; 30</li>
+</p>
