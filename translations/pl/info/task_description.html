@@ -1,0 +1,30 @@
+<p style="text-align: justify;">
+  Otrzymuje Pan ciąg znaków (<b class="code">words</b>) z kilkoma słowami oddzielonymi spacjami oraz liczbę całkowitą (<b class="code">n</b>) - indeks symbolu w tym ciągu. Proszę wypisać słowo (część <b class="code">words</b>, oddzielone spacjami), które zawiera symbol pod tym indeksem. Jeśli żaden element nie pasuje do tego indeksu, proszę zwrócić <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
+</p>
+
+<p>
+ <strong>Proszę zauważyć: </strong>
+  Indeks ma wartość 0 i odnosi się do pozycji znaku w ciągu znaków (w tym znaków spacji).
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<strong>Dane wejściowe:</strong>
+<li>Liczba całkowita "n" - indeks symbolu w słowach.</li>
+<li>Łańcuch "words" z niektórymi elementami oddzielonymi spacjami.</li>
+
+<p>
+<strong>Wyjście:</strong>
+Pojedynczy wiersz - element zawierający symbol pod tym indeksem.
+</p>
+
+<strong>Przykłady:</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
+<strong>Warunki wstępne:</strong>
+<li>0 &lt; n &lt; 30</li>
+<li>0 &lt; długość elementów &lt; 30</li>
+</p>
