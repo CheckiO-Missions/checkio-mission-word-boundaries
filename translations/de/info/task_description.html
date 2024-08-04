@@ -1,0 +1,30 @@
+<p style="text-align: justify;">
+  Sie erhalten eine Zeichenkette (<b class="code">words</b>) mit einigen durch Leerzeichen getrennten Wörtern und eine ganze Zahl (<b class="code">n</b>) - den Index eines Symbols in dieser Zeichenkette. Sie müssen das Wort (Teil von <b class="code">words</b>, begrenzt durch Leerzeichen) ausgeben, das das Symbol unter diesem Index enthält. Wenn kein Element mit diesem Index übereinstimmt, geben Sie zurück <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
+</p>
+
+<p>
+ <strong>Anmerkung: </strong>
+  Index ist 0-basiert und bezieht sich auf die Position eines Zeichens in der Zeichenkette (einschließlich der Leerzeichen).
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<strong>Eingabe:</strong>
+<li>Eine ganze Zahl "n" - Index eines Symbols in Wörtern.</li>
+<li>Eine Zeichenkette "Wörter" mit einigen durch Leerzeichen getrennten Elementen.</li>
+
+<p>
+<strong>Ausgabe:</strong>
+Eine einzelne Zeile - Element, das das Symbol unter diesem Index enthält.
+</p>
+
+<strong>Beispiele:</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
+<strong>Vorbedingungen:</strong>
+<li>0 &lt; n &lt; 30</li>
+<li>0 &lt; Länge der Elemente &lt; 30</li>
+</p>
