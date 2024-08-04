@@ -1,0 +1,30 @@
+<p style="text-align: justify;">
+  On vous donne une chaîne (<b class="code">words</b>) avec quelques mots séparés par des espaces et un entier (<b class="code">n</b>) - l'index d'un symbole dans cette chaîne. Vous devez imprimer le mot (partie de <b class="code">words</b>, délimitée par des espaces) qui contient le symbole sous cet index. Si aucun élément ne correspond à cet index, vous devez renvoyer <b class="code">{% if is_js %}null{% else %}None{% endif %}</b>.
+</p>
+
+<p>
+ <strong>Remarque: l'indice est basé sur 0 et se réfère à la position d'un caractère dans la chaîne: </strong>
+  L'indice est basé sur 0 et se réfère à la position d'un caractère dans la chaîne (y compris les caractères d'espacement).
+</p>
+
+<p style="text-align: center;">
+  <img  title="example" src="{{MEDIA}}word-bound.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<strong>Entrée:</strong>
+<li>Un entier "n" - indice d'un symbole dans les mots.</li>
+<li>Une chaîne de caractères "mots" dont certains éléments sont séparés par des espaces.</li>
+
+<p>
+<strong>Résultat:</strong>
+Une seule ligne - élément contenant le symbole sous cet index.
+</p>
+
+<strong>Exemples:</strong>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p>
+<strong>Conditions préalables:</strong>
+<li>0 &lt; n &lt; 30</li>
+<li>0 &lt; longueur des éléments &lt; 30</li>
+</p>
